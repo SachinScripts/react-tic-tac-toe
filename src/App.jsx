@@ -61,6 +61,10 @@ function App() {
       });
     }
 
+    function handleRestart(){
+      setGameTurns([]);
+    }
+
   return (
     <main>
       <div id="game-container">
